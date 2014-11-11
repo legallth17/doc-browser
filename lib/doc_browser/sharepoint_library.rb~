@@ -1,0 +1,13 @@
+class SharePointLibrary 
+	attr_accessor :library_url
+
+	def initialize
+	end
+
+	def list_documents
+<<EOS
+	    <xml>
+	    </xml>
+EOS
+	end
+end
